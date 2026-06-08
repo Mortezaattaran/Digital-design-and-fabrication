@@ -420,3 +420,136 @@ void loop() {
     </td>
   </tr>
 </table>
+
+---
+# Exercise 4: E-Textile  LED Circuit
+
+## Project Overview
+
+This portfolio documents my e-textile exercise, where I designed and built a small textile object in the shape of a revolver. The object contains five blue LEDs, a coin cell battery, a battery holder with an on/off switch, conductive yarn, and two layers of fabric.
+
+The goal of the exercise was to understand how conductive textile materials can be used to build a working circuit, and how resistance, polarity, and contact quality affect the final result.
+
+![Final e-textile revolver with LEDs switched on](P4-E-Textile/media/Task4-9.jpeg)
+
+---
+
+## Exercise Context
+
+At the beginning of the exercise, we measured the resistance of different conductive yarns using a multimeter. This helped us understand that not all conductive yarns behave the same way. Some yarns have higher resistance and may not work well for a circuit with several LEDs.
+
+After measuring the yarns, we selected two fabrics:
+
+- one base fabric for the circuit
+- one top fabric layer to cover the circuit
+
+I chose a dark blue base fabric and a red skull-patterned fabric for the top layer.
+
+
+|            conductive yarn             | Measuring conductive yarn resistance with a multimeter |
+|:--------------------------------------:| :---: |
+| ![](P4-E-Textile/media/Task4-1-0.jpeg) | ![](P4-E-Textile/media/Task4-1-1.jpeg) |
+
+---
+
+## Materials Used
+
+- Conductive yarn
+- Alternative conductive yarn with better conductivity
+- Five blue LEDs with built-in resistors
+- Coin cell battery
+- Battery holder with two positive connections, two negative connections, and an on/off switch
+- Dark blue base fabric
+- Red skull-patterned top fabric
+- Needle
+- Non-conductive yarn
+- Scissors
+- Razor
+- Soap for marking fabric
+- Paper and pencil
+
+
+| Starting materials: fabric, battery holder, LEDs, needle, and thread |               fabric                |
+|:--------------------------------------------------------------------:|:-----------------------------------:|
+|                ![](P4-E-Textile/media/Task4-1-3.jpeg)                | ![](P4-E-Textile/media/Task4-1-4.JPG) |
+
+
+
+---
+
+## Design Idea
+
+After testing the conductive yarn, I wanted to make a textile object that looked visually interesting when the LEDs were switched on. I chose a revolver shape because I thought the silhouette would work well with shiny blue LEDs.
+
+First, I drew the revolver shape on paper. Then I transferred the outline onto the fabric using soap. The soap line helped me see where to cut without permanently marking the fabric.
+
+![Revolver outline marked on the red fabric](P4-E-Textile/media/Task4-1-2.jpeg)
+
+Cutting the revolver shape was one of the most difficult parts of the project because the shape had sharp corners, curves, and small details. I used scissors and a razor to cut the shape as carefully as possible.
+
+![Planning and cutting the revolver fabric shape](P4-E-Textile/media/Task4-2.jpeg)
+
+---
+
+## Circuit Construction
+
+I attached the coin cell battery holder to the dark blue base fabric using conductive yarn. Then I connected the circuit so that all positive LED sides were connected to the positive side of the battery holder. I also connected all negative LED sides to the negative side of the battery holder.
+
+This created a parallel LED circuit. Because the LEDs had built-in resistors, they could be connected directly to the coin cell battery holder.
+
+
+![Testing the battery holder and LEDs before closing the textile](P4-E-Textile/media/Task4-3.jpeg)
+
+---
+
+## Testing and Problem Solving
+
+During testing, I found that the first conductive yarn had higher resistance than expected. Because of this, the LEDs did not work reliably. I solved this by repeating the conductive paths with a better conductive yarn.
+
+After changing the yarn, the LEDs turned on, but only when I pressed the battery holder. This showed that the problem was not only the yarn resistance but also the contact at the battery holder. I improved the connection until the LEDs worked properly.
+
+![Back side showing conductive stitching and circuit paths](P4-E-Textile/media/Task4-5.jpeg)
+
+---
+
+## Final Result
+
+After the circuit was working, I covered the circuit with the red fabric layer and finished the textile using non-conductive yarn. I used non-conductive yarn for the finishing stitches so that the decorative sewing would not interfere with the electrical circuit.
+
+The final result is not perfect in shape or finishing, but I like it because it shows my design idea, my testing process, and the improvements I made during the exercise.
+
+![Final front view with LEDs switched on](P4-E-Textile/media/Task4-6.jpeg)
+
+![Side view with blue LEDs visible through the top fabric](P4-E-Textile/media/Task4-7.jpeg)
+
+![Final view in darker lighting](P4-E-Textile/media/Task4-8.jpeg)
+
+---
+
+## Demo GIF
+
+The GIF below shows only the main action from the video: the textile circuit being pressed and the blue LEDs lighting up.
+
+![LED circuit demo](P4-E-Textile/media/Task4-10.gif)
+
+---
+
+## Reflection
+
+This exercise helped me understand that e-textile circuits depend on both electronic design and material behavior. In a normal circuit, wires usually have very low resistance, but in e-textiles the conductive yarn can have enough resistance to affect the brightness and reliability of LEDs.
+
+I also learned that contact points are very important. Even when the circuit layout is correct, a weak connection at the battery holder can prevent the LEDs from working. Testing with a multimeter and checking the circuit step by step helped me identify the problem.
+
+The most challenging parts were cutting the revolver shape, stitching the conductive paths neatly, and making stable connections between the battery holder and the LEDs. If I repeated the project, I would plan the circuit paths more clearly before sewing, choose wider conductive paths, and allow more space between the positive and negative lines. This would make the circuit easier to handle, reduce the risk of accidental short circuits, and help me make the finishing stitches cleaner and more reliable.
+
+---
+
+## Conclusion
+
+I successfully created an e-textile LED circuit in the shape of a revolver(something like that...). The project included measuring conductive yarn resistance, choosing suitable materials, designing and cutting fabric, sewing a parallel LED circuit, testing the circuit, solving conductivity and contact problems, and finishing the textile with a top fabric layer.
+
+The final object demonstrates the main learning points of the exercise: conductivity, resistance, polarity, circuit testing, and the practical challenges of working with electronic textiles.
+
+---
+
+
