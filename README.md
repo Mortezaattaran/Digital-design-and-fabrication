@@ -546,7 +546,7 @@ The most challenging parts were cutting the revolver shape, stitching the conduc
 
 ## Conclusion
 
-I successfully created an e-textile LED circuit in the shape of a revolver(something like that...). The project included measuring conductive yarn resistance, choosing suitable materials, designing and cutting fabric, sewing a parallel LED circuit, testing the circuit, solving conductivity and contact problems, and finishing the textile with a top fabric layer.
+I successfully created an e-textile LED circuit inspired by the shape of a revolver. The project included measuring conductive yarn resistance, choosing suitable materials, designing and cutting fabric, sewing a parallel LED circuit, testing the circuit, solving conductivity and contact problems, and finishing the textile with a top fabric layer.
 
 The final object demonstrates the main learning points of the exercise: conductivity, resistance, polarity, circuit testing, and the practical challenges of working with electronic textiles.
 
