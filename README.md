@@ -552,4 +552,111 @@ The final object demonstrates the main learning points of the exercise: conducti
 
 ---
 
+# Exercise 5: CNC Milling
+
+## Wooden Tea Light Candle Holder Design
+
+This portfolio documents my CNC milling exercise, where I designed a wooden tea light candle holder in Inkscape and prepared it as a clean SVG/vector file for the CNC workflow. The design was based on a simplified leaf shape, with a circular candle pocket placed in the center.
+
+---
+
+## Inspiration and Final Vector Drawing
+
+I used the Canadian flag image only as a visual reference for the leaf shape. The final drawing was created separately as my own simplified vector outline, without keeping the flag image in the final file.
+
+|                    Inspiration image                    |                Final vector drawing without the flag image                |
+|:-------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| ![Inspiration image](P5-CNC-Milling/media/inspiration-canadian-flag.png) | ![Final vector drawing without flag](P5-CNC-Milling/media/Final_Draw.png) |
+
+---
+
+## Design Idea and Change of Plan
+
+At the beginning, I installed Inkscape and planned to use a lily pad picture as my design inspiration. After looking at it more carefully, I realized that the lily pad shape had too many sharp edges and small details. These details could make the drawing harder to clean and could also be difficult to mill accurately.
+
+Because of this, I changed my idea and chose a leaf shape inspired by the Canadian flag. I thought the leaf would look good as a wooden candle holder because it is recognizable, decorative, and suitable for a natural wood object. I used the flag image only as a visual reference and created my own simplified vector outline for CNC milling.
+
+---
+
+## Document Preparation in Inkscape
+
+I set the Inkscape page according to the exercise requirements. The page was prepared at 100 mm by 150 mm, and the units were set to millimeters so the drawing would have real physical dimensions for machining. I also created the candle pocket as a 39.5 mm circle and saved the finished design as an SVG vector file.
+
+---
+
+## Drawing Process
+
+First, I drew the 39.5 mm circle for the candle hole and placed it exactly in the middle of the page. Then I imported the Canadian flag image and used the leaf only as a reference for my own drawing.
+
+To make tracing easier, I opened **Layers and Objects** from the task bar, moved the reference image to a lower layer, and locked it so it stayed fixed on the page. This followed the workflow explained in the manual.
+
+After that, I used the Pen tool to create a simple vector outline around the leaf shape using **Bézier curves**. This allowed me to build my own clean path instead of using the image directly. I made the stroke a little thicker so the outline was easier to see, and then used the Node tool to polish the shape.
+
+During the editing process, I added and removed some nodes to improve the drawing. I corrected the curves, adjusted the path, and removed unnecessary points where the outline was too detailed. These changes made the final leaf cleaner, smoother, and more suitable for CNC machining.
+
+Finally, I placed the leaf outline in the middle of the page around the candle hole. With the tutor’s explanation, I also realized that the stem of the leaf needed to be at least 6 mm wide, so it would be strong enough and would not break during milling or afterwards. When the drawing was finished, I saved it as an `.svg` file.
+
+---
+
+## CNC Milling Considerations
+
+After receiving feedback from the tutor, I realized that some parts of my first design were not strong enough for CNC milling. The tutor explained that the stem of the leaf should not be too thin, because it could break during the milling process or afterwards when handling the wooden candle holder.
+
+Based on this feedback, I changed the design and increased the stem width to about 6 mm. I also simplified the leaf outline and cleaned the vector path to make the shape more suitable for machining. This change made the final drawing stronger, easier to understand in CAM, and more realistic for CNC milling.
+
+---
+
+## CNC Machine Work During Class
+
+During class, I took photos and videos of the CNC machine working. These photos and GIFs show how the digital design was connected to the real milling process.
+
+From observing the machine, I understood that the CNC milling process is controlled through different parts. The machine had a remote control for manual movement, and it was also connected to a computer system with a mouse and screen. The screen showed the configuration, the machining process, and the position of the milling path.
+
+![CNC control screen](P5-CNC-Milling/media/Task5-1.jpeg)
+
+**Observation:** The control screen showed the CNC program, toolpath preview, machine status, and coordinate values. This helped us understand where the machine was moving and how the milling process was being monitored.
+
+Before milling started, the base vector and the X, Y, and Z directions were checked. This helped show where the machine would move and where the starting point was located. The starting position was also shown on the computer screen as a box, which helped make sure the milling head was aligned with the correct point.
+
+![CNC coordinate screen](P5-CNC-Milling/media/Task5-4.jpeg)
+
+To set the Z height, we used a piece of paper on top of the wooden workpiece. The milling head was moved carefully down until it touched the paper. This helped check that the Z position was correct before the real milling process started.
+
+During milling, the CNC machine used an internal vacuum system to clean the working area and remove dust and small wood particles. We also used ear protection because the machine was loud while cutting the wood.
+
+![CNC machine overview](P5-CNC-Milling/media/Task5-2.JPG)
+
+After the outside shape was milled, the milling head/blade was changed. The second tool was used for milling the inside pocket of the candle hole.
+
+![Milling the candle pocket](P5-CNC-Milling/media/Task5-3.jpeg)
+
+When the process was finished, we removed the wooden candle holder carefully with a small movement.
+
+---
+
+## CNC Process GIFs
+
+The GIFs below show the CNC machine working during the class. They make it easier to show the movement of the milling head and the machining process inside the machine enclosure.
+
+![CNC milling process 1](P5-CNC-Milling/media/cnc-process-1.gif)
+
+![CNC milling process 2](P5-CNC-Milling/media/cnc-process-2.gif)
+
+![CNC milling process 3](P5-CNC-Milling/media/cnc-process-3.gif)
+
+---
+
+## Learning Outcome
+
+This exercise helped me understand how a simple idea becomes a real object through CNC milling. I learned that the drawing must be clean, correctly sized, and suitable for the milling tool. I also learned that design decisions are not only visual; they must also consider material strength and machining limits.
+
+The most useful part was watching the CNC machine during class. It helped me understand how the CAD drawing and CAM toolpaths become a physical wooden candle holder.
+
+---
+
+## Conclusion
+
+I successfully created a CNC milling design for a wooden tea light candle holder. The project included choosing and changing the design idea, preparing the Inkscape document, creating a clean vector outline with Bézier curves, adjusting nodes, considering material strength, and observing the CNC milling process during class.
+
+The final result demonstrates the main learning points of the exercise: vector drawing, CNC design constraints, CAM preparation, machine setup, tool movement, and the connection between digital design and physical fabrication.
 
