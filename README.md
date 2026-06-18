@@ -660,3 +660,133 @@ I successfully created a CNC milling design for a wooden tea light candle holder
 
 The final result demonstrates the main learning points of the exercise: vector drawing, CNC design constraints, CAM preparation, machine setup, tool movement, and the connection between digital design and physical fabrication.
 
+---
+ # Exercise 6: Laser Cutting & Engraving
+
+## Project Overview
+
+For this exercise, I designed and fabricated a transparent acrylic business-card sample with an **Epilog Laser Fusion 60 W** CO₂ laser cutter. My final card combined a portrait line-art image, text, a vertical slogan, decorative border paths, raster engraving, and vector cutting. The work was not only about making the card; it was also about understanding the full workflow from design preparation to machine setup and final evaluation.
+
+The main idea was to make a small acrylic card that shows how transparent material reacts to laser engraving. Because acrylic is clear, I also needed to think about contrast, readability, and how the final piece looks on a dark background.
+
+---
+
+## Design Preparation
+
+### Preparing the portrait for engraving
+
+I started by preparing my portrait as a clean black-and-white line-art image. I wanted the portrait to be simple enough for the laser to engrave clearly, but still detailed enough to be recognizable. Since the card was small, I avoided using a very complex photo and used a line-art style instead.
+
+![Portrait line-art prepared for engraving](P6-Laser-Cutting/media/0-portrait-line-art.png)
+
+### 1. Designing the card layout in Inkscape
+
+After preparing the portrait, I designed the complete card in Inkscape. I set the card size to **85 mm × 55 mm**, which is similar to a standard business card size. I placed the name and contact information on the left side, added the portrait under the name, placed the slogan **“Time is Money”** vertically on the right side, and used decorative spiral borders on the bottom and right side.
+
+At this stage, I was mainly arranging the design and checking that every element had enough space. I also made sure the important text was not too small, because very small engraved text on transparent acrylic can become hard to read.
+
+![Card layout prepared in Inkscape](P6-Laser-Cutting/media/1-inkscape-card-layout.jpeg)
+
+### 2. Checking stroke settings for cutting and engraving
+
+Before sending the file to the laser cutter, I checked the stroke settings in Inkscape. For the **vector cutting lines**, I used a very thin stroke width of **0.001 mm**. This is important because the laser driver recognizes very thin hairline paths as vector cut lines.
+
+For the engraving parts, such as the portrait, text, and decorative details, I kept them as visible black artwork/fill or normal visible paths so the laser could treat them as raster engraving. In my understanding, engraving and cutting are handled differently: engraving scans the surface area and removes a shallow layer from the acrylic, while cutting follows the vector line to go through the material.
+
+![Stroke settings checked in Inkscape](P6-Laser-Cutting/media/2-inkscape-stroke-settings.jpeg)
+
+---
+
+## Preparing the Material and Laser Job
+
+### 3. Measuring the acrylic thickness
+
+After finishing the digital design, I measured the acrylic sheet with a digital caliper. I did this before the laser job because the material thickness affects the cutting settings. If the thickness is not checked properly, the laser may not cut through the acrylic completely, or it may use too much power and leave rough edges.
+
+![Measuring the acrylic thickness](P6-Laser-Cutting/media/3-measuring-thinkness-material.jpeg)
+
+### 4. Sending the file through the Epilog driver
+
+Then I opened the print/laser driver settings. In the Epilog driver, I checked that the job was prepared as a combined workflow for both raster engraving and vector cutting. I also checked the resolution and the laser settings before sending the job.
+
+In this step, I learned that the software settings are just as important as the design itself. Even if the Inkscape file looks correct, the result can fail if the driver settings, page size, or laser mode are not set correctly.
+
+![Epilog laser driver settings](P6-Laser-Cutting/media/04-acrylic-measurement.jpeg)
+
+### 5. Placing the acrylic on the laser bed
+
+After the file was ready, I placed the acrylic sheet on the honeycomb laser bed. I positioned it carefully so the card would be cut in the correct area of the material. I also checked the position of the laser head and made sure the material was flat on the bed.
+
+![Acrylic sheet positioned on the laser bed](P6-Laser-Cutting/media/05-1-laser-bed-material.jpeg)
+
+At this point, I also paid attention to the **manual starting point/origin**. The starting point had to be set properly before running the job, because the laser follows the design based on the selected origin. If the origin is wrong, the laser could start in the wrong place and waste the acrylic sheet.
+
+![Laser head and material position checked before the job](P6-Laser-Cutting/media/05-laser-bed-material.PNG)
+
+### 6. Checking the machine area before starting
+
+Before pressing start, I checked the control panel, emergency stop button, machine side, and workstation area. I also made sure the BOFA fume extraction system was running, because acrylic cutting and engraving produce fumes and odor. The machine cover stayed closed during operation for safety.
+
+![Laser cutter control side and workstation](P6-Laser-Cutting/media/06-control-panel-and-workstation.jpeg)
+
+---
+
+## Laser Cutting and Engraving Process
+
+### 7. Cutting action
+
+After setting the starting point and checking the material position, I started the job. The cutting action followed the vector paths and moved along the outline of the design. Cutting was faster than engraving because the laser only needed to follow the vector line instead of scanning a whole filled area.
+
+![Laser cutting action](P6-Laser-Cutting/media/07-laser-cutting-action-exact-start-vertical.gif)
+
+### 8. Engraving action
+
+The engraving part took more time than the cutting part. This made sense to me because engraving works by scanning back and forth over the artwork, especially for the portrait, text, and decorative details. The laser has to cover a larger surface area during raster engraving, while cutting only follows thin vector lines.
+
+![Laser engraving process](P6-Laser-Cutting/media/08-laser-engraving-process.gif)
+
+---
+
+## Final Result
+
+### 9. First check of the acrylic card
+
+After the laser job finished, I removed the acrylic card and checked the result by holding it in my hand. The engraved lines appeared white on the transparent surface, but because the acrylic was clear, the details were easier to see when I placed the card against a darker background.
+
+![First final acrylic card result](P6-Laser-Cutting/media/09-first-final-card.jpeg)
+
+### 10. Checking the final card on a dark background
+
+I then placed the card on a dark surface to evaluate the engraving contrast. This made the portrait, text, border, and slogan much clearer. This step helped me understand that transparent acrylic often needs a background behind it to make engraved details more visible.
+
+![Final acrylic card on dark background](P6-Laser-Cutting/media/10-final-card-top-view.jpeg)
+
+### 11. Final machine view after the workflow
+
+At the end, I documented the full machine setup again. The Epilog Laser Fusion, BOFA extractor, and workstation were all part of the final workflow. This photo shows the complete working environment that connected the digital design process to the physical fabrication result.
+
+![Final laser cutter setup](P6-Laser-Cutting/media/11-machine-front-view.jpeg)
+
+---
+
+## Problems and Improvements
+
+One challenge was making the engraving readable on transparent acrylic. The portrait, small text, and decorative borders needed enough contrast, but the material itself was clear. I solved this by checking the result on a dark background and by keeping the layout simple enough to read.
+
+Another challenge was preparing the file correctly for both engraving and cutting. I had to separate in my mind what should be engraved and what should be cut. The cutting lines needed a **0.001 mm stroke**, while the engraving artwork needed to remain visible as raster content. I also learned that the start point/origin must be set manually and carefully, because a wrong starting point can shift the whole job.
+
+---
+
+## Learning Outcome
+
+This exercise helped me understand the full laser-cutting workflow more clearly. I learned that the final result depends on several connected steps: preparing the design in Inkscape, setting the correct stroke width for vector cutting, measuring the acrylic, checking the driver settings, setting the manual origin, using the fume extractor, and comparing the cutting and engraving behavior.
+
+The most important observation for me was that engraving takes noticeably longer than cutting. Cutting follows a line, but engraving scans an area. This made the difference between vector and raster work much easier to understand.
+
+---
+
+## Conclusion
+
+I successfully designed, engraved, and cut a transparent acrylic business-card sample using the Epilog Laser Fusion 60 W. The project started with portrait preparation and Inkscape layout design, continued with stroke checking, material measurement, driver setup, manual starting point adjustment, laser cutting, and engraving, and finished with checking the final acrylic card on different backgrounds.
+
+The final piece shows the main learning points of the exercise: raster engraving, vector cutting, thin cutting strokes, material positioning, manual origin setting, fume extraction, and the connection between digital design and physical fabrication.
