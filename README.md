@@ -790,3 +790,24 @@ The most important observation for me was that engraving takes noticeably longer
 I successfully designed, engraved, and cut a transparent acrylic business-card sample using the Epilog Laser Fusion 60 W. The project started with portrait preparation and Inkscape layout design, continued with stroke checking, material measurement, driver setup, manual starting point adjustment, laser cutting, and engraving, and finished with checking the final acrylic card on different backgrounds.
 
 The final piece shows the main learning points of the exercise: raster engraving, vector cutting, thin cutting strokes, material positioning, manual origin setting, fume extraction, and the connection between digital design and physical fabrication.
+
+---
+# Onshape CAD Training Portfolio
+
+## Completed Training
+
+I completed the required Onshape Introduction to CAD training courses:
+
+- Introduction to Parametric Feature-Based CAD
+- Introduction to Sketching
+- Introduction to Part Studios
+
+## Proof of Completion
+
+The screenshot below shows my Onshape Training Dashboard with **3 completed courses** and **3 certifications**.
+
+![Onshape Training Dashboard](P7-CAD/media/Task7.png)
+
+## Short Reflection
+
+Through this training, I learned the basics of parametric CAD, sketching, constraints, features, and creating 3D parts in Onshape.
