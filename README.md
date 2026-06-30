@@ -646,6 +646,23 @@ The GIFs below show the CNC machine working during the class. They make it easie
 
 ---
 
+
+## Final CNC Milling Outcome
+
+After the CNC milling process was finished, I tested the final wooden candle holder with a tea light candle. The final object shows that the digital vector drawing was successfully transformed into a real wooden product.
+
+The circular pocket in the middle fits the tea light candle well, and the raised edge around the hole helps keep the candle in place. The simplified leaf shape also worked well for CNC milling, because the outline was clear and the stem was strong enough after increasing its width.
+
+| Final candle holder with candle | Side view with candle |
+|:-------------------------------:|:---------------------:|
+| ![Final CNC candle holder with candle](P5-CNC-Milling/media/Task5-5.jpeg) | ![Side view of final CNC candle holder](P5-CNC-Milling/media/Task5-6.jpeg) |
+
+The photos below show the final result without the candle. This makes it easier to see the milled candle pocket, the wood grain, the depth of the cut, and the finished leaf shape.
+
+| Final result without candle | Back and side detail |
+|:---------------------------:|:--------------------:|
+| ![Final CNC candle holder without candle](P5-CNC-Milling/media/Task5-7.jpeg) | ![Back and side detail of CNC candle holder](P5-CNC-Milling/media/Task5-8.jpeg) |
+---
 ## Learning Outcome
 
 This exercise helped me understand how a simple idea becomes a real object through CNC milling. I learned that the drawing must be clean, correctly sized, and suitable for the milling tool. I also learned that design decisions are not only visual; they must also consider material strength and machining limits.
