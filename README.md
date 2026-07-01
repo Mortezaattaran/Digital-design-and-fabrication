@@ -828,3 +828,145 @@ The screenshot below shows my Onshape Training Dashboard with **3 completed cour
 ## Short Reflection
 
 Through this training, I learned the basics of parametric CAD, sketching, constraints, features, and creating 3D parts in Onshape.
+
+---
+
+# Exercise 7: 3D Printing
+
+## Custom Phone and Tablet Stand
+
+This portfolio documents my 3D printing exercise, where I designed a custom phone and tablet stand using **Onshape** for parametric CAD modelling and **QIDI Studio** for slicing. Instead of simply downloading and printing an existing model, I used an existing stand only as inspiration and then recreated my own version from scratch.
+
+The final model was designed as a single parametric part that could be manufactured as one 3D-printed component, with integrated cable management and a personal cut-out signature.
+
+---
+
+## Inspiration
+
+Before starting the CAD model, I looked at an existing printed phone and tablet stand and also checked its 3D model. I used these references to understand the basic geometry, viewing angle, and support idea. However, I did not copy the model directly. I redesigned the stand in Onshape with my own dimensions and added my own functional and personal details.
+
+|                Printed inspiration stand                |                    Reference 3D model                     |
+|:-------------------------------------------------------:|:---------------------------------------------------------:|
+| ![](P7-3D-Printing/media/Task1-inspiration-printed.png) | ![](P7-3D-Printing/media/Task2-inspiration-cad-model.png) |
+
+---
+
+## Design Idea
+
+The goal was to create a practical desk accessory that can hold a phone or tablet at a comfortable viewing angle. I also wanted the device to be usable while charging, so I planned a cable opening as part of the design.
+
+The stand was designed to:
+
+- support both smartphones and tablets,
+- work as a stable single printed part,
+- include a charging cable opening,
+- be lightweight and portable,
+- provide a simple, stable, and aesthetically pleasing design,
+- use fully defined parametric sketches,
+- include a personal **M.T.Z.** cut-out signature.
+
+---
+
+## Creating the Main Profile Sketch
+
+I started by creating the main side profile sketch of the stand in Onshape. This sketch defined the overall shape, the support angle, and the main proportions of the model. I used dimensions and constraints to control the sketch instead of only drawing it freely.
+
+One important part of this step was making the sketch fully defined. I attached the geometry to the main reference point and added the required dimensions and angles so the sketch would behave predictably if changed later.
+
+![Main profile sketch with dimensions and angle](P7-3D-Printing/media/Task3-main-profile-sketch.png)
+
+---
+
+## From Sketch to Solid Body
+
+After defining the main profile, I used **Extrude** to turn the sketch into a three-dimensional part. This created the first main body of the stand.
+
+I then continued refining the shape with additional modelling steps. The design gradually changed from a simple extruded profile into a more complete holder with functional details.
+
+While developing the model, I did not simply create the final shape in one step. I also extruded several intermediate sketches from the original part to better understand the real geometry of the stand and evaluate how different dimensions affected its stability and appearance. This iterative approach helped me refine the final design before completing the model.
+
+|                    First extruded sketch                    |                    Main extruded body                    |
+|:-----------------------------------------------------------:|:--------------------------------------------------------:|
+| ![](P7-3D-Printing/media/Task4-0-extruded-first-sketch.png) | ![](P7-3D-Printing/media/Task4-1-extruded-main-body.png) |
+
+---
+
+## Cable Management Opening
+
+To make the stand more useful, I added a cable opening. This allows a charging cable to pass through the stand while the phone or tablet is resting on it. This was important because the charging socket is usually at the bottom of the device.
+
+The cable opening was created with a separate sketch and then removed from the solid body.
+
+![Cable hole sketch](P7-3D-Printing/media/Task5-cable-hole-sketch.png)
+
+---
+
+## Personal  signature
+
+As a personal detail, I added my initials "**M.T.Z**" to the model. I created the letters as sketch geometry and then used **Extrude Remove** to cut the text completely through the part.
+
+In my understanding, this is not engraving. It is more like a cut-out, because the material is removed through the body. During modelling, the signature appears on a side-oriented face, but after printing and placing the stand in its normal position, this feature belongs to the bottom/side support area of the holder.
+
+![M.T.Z. signature sketch](P7-3D-Printing/media/Task6-signature-sketch.png)
+
+---
+
+## Preparing the Model in QIDI Studio
+
+After completing the CAD model, I exported the design as an STL file and imported it into **QIDI Studio** for slicing. During this stage, I selected the **QIDI Q2** printer profile and positioned the model on the build plate.
+
+Before starting the actual print, I carefully inspected the sliced layers generated by QIDI Studio. This preview allowed me to understand how the printer would build the object layer by layer and served as a useful simulation of the printing process. It also helped me verify that the first layers had good contact with the build plate before manufacturing the real object.
+
+During slicing, QIDI Studio reported unsupported regions in the model. To solve this problem, I enabled **Tree Supports**, which provide the required support while using less material and making post-processing easier than traditional supports.
+
+The model was finally positioned so that its base rested securely on the print bed, improving stability during printing and reducing unnecessary support material.
+
+![QIDI Studio orientation and slicing setup](P7-3D-Printing/media/Task7-qidi-orientation.png)
+
+---
+
+## Print Settings and Estimated Result
+
+QIDI Studio was also used to estimate the printing time, filament consumption, and material weight before starting the print. The exercise required that the total material usage should not exceed **120 g**, and my final model satisfied this requirement.
+
+One interesting observation was that the part weight reported by **Onshape** was different from the weight estimated by **QIDI Studio**. This is expected because the two programs calculate weight differently.
+
+Onshape estimates the weight of the complete solid model using the selected material properties, while QIDI Studio estimates only the amount of filament that will actually be extruded during printing. The slicer also considers the selected material, nozzle diameter, layer height, wall thickness, infill, support structures, and other printing parameters. As a result, the estimated print weight differs from the theoretical CAD weight.
+
+This comparison helped me understand that preparing a model for additive manufacturing involves much more than creating a CAD model. The final printed object depends on both the design itself and the manufacturing parameters chosen in the slicer.
+
+![QIDI Studio print time and weight estimation](P7-3D-Printing/media/Task8-print-time-weight.png)
+
+---
+
+## Challenges
+
+The most challenging part of this exercise was understanding how parametric CAD works. At the beginning, some sketches were not fully defined, and some dimensions or constraints caused conflicts when I tried to edit the shape. I learned that it is better to define the important geometry clearly and avoid unnecessary constraints.
+
+Another challenge was understanding the slicer warnings. At first, QIDI Studio showed warnings related to the model orientation and unsupported regions. By checking the layer preview, changing the orientation, and enabling Tree Supports, I better understood how the model should be placed and prepared for printing.
+
+Another challenge was understanding why the estimated weight in Onshape differed from the weight shown in QIDI Studio. At first, I expected both values to be identical, but I learned that CAD software calculates the weight of the complete solid model, while slicing software estimates only the material that will actually be printed based on the selected print settings.
+
+---
+
+## Reflection
+
+This exercise helped me understand the complete workflow of additive manufacturing, from parametric CAD modelling to manufacturing preparation. I learned that designing a printable object involves much more than creating a 3D shape. The model must be fully constrained, suitable for fabrication, and carefully prepared in slicing software before printing.
+
+I also learned how useful fully defined sketches are in Onshape. When the sketch is properly constrained, it is easier to change dimensions later without breaking the whole model. The exercise also helped me understand how CAD modelling and slicing software work together to turn a digital design into a physical object.
+
+One of the most valuable lessons was understanding how design decisions influence the manufacturing process. Small changes in orientation, support structures, layer height, material settings, or nozzle-related parameters can significantly affect printing time, material consumption, and the quality of the final part.
+
+---
+
+## Final Printed Product
+
+The final printed product will be added after receiving the printed model in the next class. At the current stage, the CAD model and the QIDI Studio slicing preparation are complete.
+
+---
+
+## Conclusion
+
+I successfully designed a custom phone and tablet stand using Onshape and prepared it for 3D printing in QIDI Studio. The project included studying an inspiration model, creating fully defined sketches, extruding the main body, adding a cable opening, creating a personal "M.T.Z" cut-out, and preparing the model for printing with QIDI Q2.
+
+This exercise improved my understanding of parametric CAD, design constraints, slicer preparation, support generation, material estimation, and the connection between digital modelling and physical fabrication.
