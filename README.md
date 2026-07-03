@@ -961,8 +961,23 @@ One of the most valuable lessons was understanding how design decisions influenc
 
 ## Final Printed Product
 
-The final printed product will be added after receiving the printed model in the next class. At the current stage, the CAD model and the QIDI Studio slicing preparation are complete.
+After receiving the printed model, I tested the final phone and tablet stand with different devices. The stand was printed successfully as one solid 3D-printed part. It can hold both a phone and a tablet in landscape and portrait orientation.
 
+The front lips keep the device stable, while the back triangular support gives the model a good viewing angle. I also added cable-management holes so the device can be charged while it is placed on the stand. The holes on the backside can also be used for attaching the stand to a wall or another surface with screws. Another possible use would be attaching it with suction cup hooks, for example on a smooth surface.
+
+The personal cut-out initials are visible on the base and side of the model. Overall, the final print is functional, stable, and usable for different device sizes and orientations.
+
+| Phone in landscape mode | Phone in portrait mode |
+|:-----------------------:|:----------------------:|
+| ![Phone landscape test](P7-3D-Printing/media/Task8-phone-landscape.jpeg) | ![Phone portrait test](P7-3D-Printing/media/Task8-phone-portrait.jpeg) |
+
+| Side view of printed stand | Front/side detail |
+|:--------------------------:|:-----------------:|
+| ![Side view of printed stand](P7-3D-Printing/media/Task8-side-view.jpeg) | ![Front side detail](P7-3D-Printing/media/Task8-front-side-detail.jpeg) |
+
+| Personal cut-out detail | Tablet test with cable management |
+|:----------------------:|:--------------------------------:|
+| ![Personal cut-out detail](P7-3D-Printing/media/Task8-cutout-detail.jpeg) | ![Tablet test with cable management](P7-3D-Printing/media/Task8-tablet-cable-test.jpeg) |
 ---
 
 ## Conclusion
